@@ -18,7 +18,7 @@ Extension for java - Microosoft (necesarias)
 Live server - Ritwich dey (opcional)
 
 Flujo de ejecucion...
-Terminal 1: Ejecuta el servidor Quarkus "chat-server-quarkus", levantaremos el servidor con  ./mvnw quarkus:dev  
+Terminal 1: Ejecuta el servidor Quarkus "chat-server-quarkus", levantaremos el servidor con  ./mvnw quarkus:dev ó mvn quarkus:dev 
 asi:
 <img width="1600" height="850" alt="image" src="https://github.com/user-attachments/assets/3f3e8e41-0b82-49ef-a03c-cb4c89690f8b" />
 <img width="1600" height="850" alt="image" src="https://github.com/user-attachments/assets/592ab306-2400-4eac-8c69-781986f58675" />
