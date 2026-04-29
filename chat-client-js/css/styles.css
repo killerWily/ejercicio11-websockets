@@ -1,0 +1,87 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e5ddd5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.chat-container {
+    width: 400px;
+    height: 600px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+header {
+    background-color: #075e54;
+    color: white;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-display {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #f0f0f0;
+}
+
+.message {
+    background: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    width: fit-content;
+    max-width: 80%;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.input-area {
+    padding: 15px;
+    background: #f0f0f0;
+    border-radius: 0 0 10px 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.message-controls {
+    display: flex;
+    gap: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#connect-btn {
+    background-color: #25d366;
+    color: white;
+    width: 100%;
+}
+
+#send-btn {
+    background-color: #075e54;
+    color: white;
+}
+
+.online { color: #25d366; font-weight: bold; }
+.offline { color: #ff3b30; font-weight: bold; }

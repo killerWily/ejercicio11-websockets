@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cliente Chat JS - Equipo 5</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header>
+            <h2>Chat WebSocket</h2>
+            <span id="status" class="offline">Desconectado</span>
+        </header>
+
+        <div id="chat-display" class="chat-display"></div>
+
+        <div class="input-area">
+            <input type="text" id="username" placeholder="Tu nombre..." maxlength="15">
+            <div class="message-controls">
+                <input type="text" id="message-input" placeholder="Escribe un mensaje..." disabled>
+                <button id="send-btn" disabled>Enviar</button>
+            </div>
+            <button id="connect-btn">Conectar al Chat</button>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
