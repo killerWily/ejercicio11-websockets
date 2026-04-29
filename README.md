@@ -1,7 +1,10 @@
 La Arquitectura del Ejercicio 11
 El flujo de datos funciona así:
+
 *El Servidor (chat-server-quarkus): Actúa como el centro de mando. Recibe un mensaje de un cliente y lo reenvía a todos los demás.
+
 *El Cliente Swing (chat-client-swing): Representa una aplicación corporativa de escritorio.
+
 *El Cliente JS (chat-client-js): Representa el acceso rápido desde cualquier navegador.
 
 Recomendaciones antes de ejecutar.
